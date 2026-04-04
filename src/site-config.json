@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Onyx Pool Service",
+    "phone": "555-poo-r93",
+    "category": "pool-service",
+    "city": "Miami",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "pool-service-dark-premium",
+      "categoryGroup": "pool-service",
+      "name": "Dark Premium",
+      "recipeFile": "pool-service/dark-premium.astro",
+      "colors": {
+        "primary": "#22D3EE",
+        "primaryDark": "#1ba9be",
+        "primaryLight": "#a7edf8",
+        "secondary": "#2A2A2A",
+        "accent": "#43daf1",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "pool-service/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Miami's Trusted Pool Care Experts",
+      "heroSubline": "Professional pool maintenance tailored to South Florida's climate. Serving Miami-Dade and Broward counties with reliable, year-round service.",
+      "aboutTitle": "Onyx Pool Service: Miami's Pool Specialists",
+      "aboutText": [
+        "Founded in 2012, Onyx Pool Service began with a simple mission: to provide Miami homeowners with dependable pool care that stands up to our unique coastal environment. What started as a two-person operation has grown into a team serving thousands of pools across South Florida.",
+        "We take a proactive approach to pool maintenance, understanding that the salt air, intense sun, and tropical storms require specialized care. Our technicians are trained in the latest techniques for combating algae blooms, salt corrosion, and equipment wear.",
+        "As a locally owned business, we're committed to preserving Miami's outdoor living culture. We partner with neighborhood associations and participate in water conservation initiatives to keep our pools beautiful and sustainable."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Care",
+          "description": "Our maintenance plans are designed specifically for South Florida's salt air, high humidity, and intense sunlight."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand the unique challenges of Miami's diverse housing stock, from historic homes to modern condos."
+        },
+        {
+          "title": "Preventative Approach",
+          "description": "We focus on preventing problems before they start, saving you money on costly repairs."
+        },
+        {
+          "title": "Responsive Service",
+          "description": "When hurricane season hits or unexpected issues arise, we prioritize emergency calls."
+        }
+      ],
+      "ctaHeadline": "Ready for Crystal Clear Water?",
+      "ctaSubline": "Schedule your pool service today and experience the Onyx difference."
+    },
+    "services": [
+      {
+        "slug": "weekly-pool-maintenance",
+        "name": "Weekly Pool Maintenance",
+        "shortDescription": "Comprehensive weekly care to keep your pool pristine in Miami's challenging climate.",
+        "description": "Our weekly maintenance program is designed specifically for South Florida pools facing constant sun, salt air, and high humidity. Each visit includes thorough skimming, brushing of tile and walls, and vacuuming to remove debris that accumulates quickly in our tropical environment.\n\nWe carefully balance chemicals to combat Miami's rapid algae growth while protecting your equipment from salt corrosion. Our technicians inspect pumps, filters, and heaters for early signs of wear from constant use. The program includes seasonal adjustments for summer's intense heat and winter's occasional cold snaps.\n\nFor condo owners, we coordinate with building staff to ensure compliance with association rules. For historic homes, we take extra care with delicate surfaces and older equipment.",
+        "process": [
+          "Step 1: Full perimeter inspection for visible issues",
+          "Step 2: Skimming, brushing, and vacuuming of all surfaces",
+          "Step 3: Water testing and chemical balancing",
+          "Step 4: Equipment inspection and maintenance notes"
+        ],
+        "benefits": [
+          "Prevents costly equipment failures",
+          "Maintains water clarity despite high temperatures",
+          "Reduces chemical usage through proper balancing",
+          "Extends the life of pool surfaces"
+        ],
+        "faq": [
+          {
+            "question": "How does your weekly service differ from other companies?",
+            "answer": "We focus on preventative care specific to Miami's conditions, including salt corrosion protection and algae prevention strategies that account for our year-round warm waters."
+          },
+          {
+            "question": "Do you handle saltwater pools differently?",
+            "answer": "Yes, we use specialized testing and treatment protocols for saltwater systems, which are particularly common in coastal Miami neighborhoods."
+          },
+          {
+            "question": "What happens during hurricane season?",
+            "answer": "We provide pre-storm preparations and post-storm recovery as part of our service, including debris removal and system restarts."
+          }
+        ]
+      },
+      {
+        "slug": "pool-equipment-repair",
+        "name": "Pool Equipment Repair",
+        "shortDescription": "Expert repairs for pumps, filters, and heaters in Miami's demanding environment.",
+        "description": "Miami's combination of salt air, high humidity, and constant equipment use creates unique challenges for pool systems. Our repair technicians specialize in diagnosing and fixing issues with pumps, filters, heaters, and automation systems that are working overtime in our climate.\n\nWe stock parts specifically designed to resist corrosion from coastal air. For older homes in neighborhoods like Coral Gables, we're experienced with vintage equipment and can often repair rather than replace. For modern high-rises in Brickell, we work efficiently in tight equipment rooms.\n\nEmergency service is available for critical failures, especially during summer months when downtime means rapid algae growth. We'll explain all repair options and help you choose the most cost-effective solution for your specific situation.",
+        "process": [
+          "Step 1: Detailed diagnostic of the issue",
+          "Step 2: Explanation of repair options and costs",
+          "Step 3: High-quality part installation",
+          "Step 4: System testing and optimization"
+        ],
+        "benefits": [
+          "Specialized knowledge of salt-resistant components",
+          "Quick response to prevent water quality issues",
+          "Honest assessments with no unnecessary upsells",
+          "Familiarity with all major equipment brands"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to equipment failures?",
+            "answer": "Most repairs are scheduled within 24 hours, with same-day emergency service available for critical failures like pump outages."
+          },
+          {
+            "question": "Do you work on commercial pool equipment?",
+            "Answer": "Yes, we service equipment for condo associations, hotels, and other commercial properties throughout Miami-Dade and Broward counties."
+          },
+          {
+            "question": "What's the most common repair in Miami pools?",
+            "Answer": "Pump seals and motor bearings fail frequently due to constant use in our year-round swimming climate. We use premium parts designed for heavy-duty operation."
+          }
+        ]
+      },
+      {
+        "slug": "tile-cleaning-restoration",
+        "name": "Tile Cleaning & Restoration",
+        "shortDescription": "Specialized cleaning for Miami's salt-stained and sun-damaged pool tiles.",
+        "description": "South Florida's hard water, salt air, and intense sun take a toll on pool tiles, leaving behind stubborn scale deposits and discoloration. Our tile cleaning service uses professional-grade equipment and eco-friendly solutions to restore brilliance without damaging delicate surfaces.\n\nFor historic pools in areas like Coconut Grove, we employ gentle techniques to preserve original tile work. For modern infinity edges in waterfront homes, we remove salt buildup that accumulates quickly near the ocean. The process includes careful grout cleaning and sealing to prevent future staining.\n\nWe recommend annual cleaning for most pools, with more frequent service for properties directly on the water. The service can often postpone the need for costly tile replacement, especially for older pools with discontinued tile patterns.",
+        "process": [
+          "Step 1: Assessment of tile condition and staining type",
+          "Step 2: Selection of appropriate cleaning method",
+          "Step 3: Hand cleaning of delicate areas",
+          "Step 4: Grout sealing and final rinse"
+        ],
+        "benefits": [
+          "Restores original tile appearance",
+          "Prevents permanent etching from hard water",
+          "Extends time between costly retiling projects",
+          "Improves overall pool aesthetics"
+        ],
+        "faq": [
+          {
+            "question": "Will cleaning damage my decorative tile?",
+            "answer": "We use adjustable pressure and specialized nozzles to safely clean even delicate hand-painted tiles common in Miami's historic pools."
+          },
+          {
+            "question": "How long does the cleaning last?",
+            "answer": "Results typically last 12-18 months, depending on your water chemistry and proximity to saltwater. We can recommend maintenance products to extend the results."
+          },
+          {
+            "question": "Can you remove calcium scale?",
+            "answer": "Yes, we have specialized tools and solutions for dissolving and removing Miami's notoriously hard water deposits without damaging tile surfaces."
+          }
+        ]
+      },
+      {
+        "slug": "pool-renovations",
+        "name": "Pool Renovations",
+        "shortDescription": "Complete pool transformations for Miami's aging and outdated pools.",
+        "description": "Many Miami pools built in the 1980s and 90s need updates to meet modern standards and aesthetics. Our renovation team specializes in comprehensive pool makeovers that address both function and form in our challenging environment.\n\nCommon projects include resurfacing with salt-resistant finishes, upgrading to energy-efficient equipment, adding safety features for families, and creating contemporary designs that complement South Florida architecture. We're experienced with the permitting process across Miami-Dade and Broward counties.\n\nFor historic preservation districts, we work with original materials when possible. For luxury waterfront properties, we install durable finishes that withstand constant exposure to salt air. Every project includes a detailed plan that minimizes downtime during our busy swimming season.",
+        "process": [
+          "Step 1: Consultation to identify goals and challenges",
+          "Step 2: Design development with 3D renderings",
+          "Step 3: Permitting and material procurement",
+          "Step 4: Construction with daily site supervision"
+        ],
+        "benefits": [
+          "Modernizes outdated pools safely and efficiently",
+          "Uses materials proven in South Florida conditions",
+          "Increases property value with premium finishes",
+          "Reduces long-term maintenance costs"
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical renovation take?",
+            "answer": "Most complete renovations take 4-6 weeks, depending on the scope. We schedule projects to minimize disruption during peak swimming months."
+          },
+          {
+            "question": "Do you handle permits for me?",
+            "answer": "Yes, we manage all necessary permits and inspections throughout Miami-Dade and Broward counties, including coastal construction regulations."
+          },
+          {
+            "question": "What's the most popular renovation in Miami?",
+            "answer": "Many homeowners are converting to saltwater systems and adding energy-efficient variable speed pumps to reduce operating costs in our year-round climate."
+          }
+        ]
+      },
+      {
+        "slug": "saltwater-conversion",
+        "name": "Saltwater Conversion",
+        "shortDescription": "Transform your pool to a low-maintenance saltwater system perfect for Miami.",
+        "description": "Saltwater pools are increasingly popular in Miami for their softer feel, reduced chemical usage, and lower maintenance requirements. Our conversion service carefully transitions your traditional chlorine pool to a saltwater system with minimal disruption.\n\nWe install commercial-grade salt chlorinators sized appropriately for South Florida's extended swimming season. The process includes modifying your existing equipment to resist salt corrosion, adding proper circulation for even salt distribution, and educating you on the simple maintenance routine.\n\nFor coastal properties, we recommend additional protective measures for nearby metal surfaces. The conversion typically takes just 1-2 days, after which you'll enjoy water that's gentler on skin and eyes - particularly beneficial in our year-round swimming climate. We provide follow-up service to ensure perfect salt levels and equipment performance.",
+        "process": [
+          "Step 1: Evaluation of your pool's suitability for conversion",
+          "Step 2: Selection of appropriately sized salt system",
+          "Step 3: Equipment installation and modification",
+          "Step 4: System activation and owner training"
+        ],
+        "benefits": [
+          "Reduces reliance on traditional chlorine",
+          "Creates softer, more comfortable water",
+          "Lowers long-term maintenance costs",
+          "Simplifies pool care during frequent use"
+        ],
+        "faq": [
+          {
+            "question": "Will saltwater damage my pool surfaces?",
+            "answer": "When properly maintained, saltwater won't damage quality pool finishes. We inspect your surfaces before conversion and recommend any needed upgrades."
+          },
+          {
+            "question": "How often do I need to add salt?",
+            "answer": "Salt levels remain relatively constant, only needing adjustment after heavy rain or backwashing. Most Miami pools require salt additions just 2-3 times per year."
+          },
+          {
+            "question": "Can any pool be converted?",
+            "answer": "Nearly all pools can be converted, though some older plumbing or equipment may need upgrading to handle saltwater's corrosive properties."
+          }
+        ]
+      },
+      {
+        "slug": "pool-leak-detection",
+        "name": "Pool Leak Detection",
+        "shortDescription": "Advanced leak location services for Miami's shifting soil conditions.",
+        "description": "Miami's high water table, sandy soil, and frequent storms create ideal conditions for pool leaks to develop. Our leak detection service uses advanced technology including electronic listening devices, pressure testing, and dye testing to pinpoint leaks with minimal disruption to your property.\n\nWe're experienced with the unique challenges of South Florida pools, including leaks in gunite shells from shifting soil, plumbing failures in corrosive salt air, and deck settling around older pools. The process begins with a thorough evaluation to confirm a leak exists (often confused with normal evaporation in our hot climate).\n\nOnce located, we provide detailed repair options ranging from simple fixes to more extensive structural work. For historic pools, we use minimally invasive techniques. Our reports include documentation for insurance claims when needed, particularly after major storm events.",
+        "process": [
+          "Step 1: Initial water loss evaluation",
+          "Step 2: Systematic testing of all pool components",
+          "Step 3: Precise leak location using specialized tools",
+          "Step 4: Detailed repair recommendations"
+        ],
+        "benefits": [
+          "Saves thousands in potential water loss",
+          "Prevents structural damage from undetected leaks",
+          "Uses non-destructive testing methods",
+          "Provides documentation for insurance purposes"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I have a leak versus normal evaporation?",
+            "answer": "In Miami's climate, pools typically lose about 1/4\" of water daily to evaporation. We perform bucket tests to confirm excessive loss indicating a leak."
+          },
+          {
+            "question": "Can you find leaks under pool decks?",
+            "answer": "Yes, we use specialized equipment to locate leaks under concrete decks without unnecessary demolition, particularly important for Miami's expensive paver installations."
+          },
+          {
+            "question": "Do you repair the leaks you find?",
+            "answer": "We can perform most repairs or refer you to trusted specialists for complex structural issues, always with your full understanding of the problem and solution."
+          }
+        ]
+      },
+      {
+        "slug": "pool-safety-inspections",
+        "name": "Pool Safety Inspections",
+        "shortDescription": "Compliance checks for Miami's strict pool safety regulations.",
+        "description": "Florida has some of the nation's strictest pool safety laws, and Miami-Dade County adds additional requirements. Our safety inspections ensure your pool meets all current codes for barriers, drains, alarms, and other critical features.\n\nWe're particularly focused on helping families with young children and rental property owners avoid liability issues. The inspection covers everything from proper fence heights and self-closing gates to anti-entrapment drain covers required by the Virginia Graeme Baker Act.\n\nFor older pools in historic districts, we identify grandfathered features that may need updating during renovations. We provide clear, actionable reports with photos highlighting any deficiencies. Many Miami homeowners use our inspection service before selling their homes or converting properties to vacation rentals.",
+        "process": [
+          "Step 1: Comprehensive evaluation of all safety features",
+          "Step 2: Documentation of compliance issues",
+          "Step 3: Explanation of required corrections",
+          "Step 4: Follow-up verification after improvements"
+        ],
+        "benefits": [
+          "Reduces drowning risks for children",
+          "Helps avoid costly code violation fines",
+          "Protects against liability claims",
+          "Provides peace of mind for property owners"
+        ],
+        "faq": [
+          {
+            "question": "How often should safety inspections be performed?",
+            "answer": "We recommend annual inspections, as codes occasionally change and wear can affect safety equipment in Miami's harsh climate."
+          },
+          {
+            "question": "Do you inspect commercial pools?",
+            "answer": "Yes, we perform inspections for condo associations, hotels, and rental properties that face even stricter regulations than residential pools."
+          },
+          {
+            "question": "What's the most common safety violation?",
+            "answer": "Improperly maintained pool fences and gates are frequent issues, particularly after hurricane season when winds damage barriers."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Weekly Pool Maintenance",
+        "text": "After three different pool companies failed to keep our Wynwood condo pool clean, Onyx finally solved our chronic algae problems. Their technician Carlos identified an equipment issue others missed and now our water stays crystal clear despite the constant Miami heat. The team always shows up exactly when scheduled, which matters when you're dealing with an HOA.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Saltwater Conversion",
+        "text": "Converting our Coral Gables pool to saltwater was the best decision we've made. The Onyx team explained every step and chose equipment that could handle our large pool and Miami's salt air. A year later, we've saved hundreds on chemicals and our kids can swim for hours without red eyes. Their follow-up service to adjust the chlorinator settings was included at no extra charge.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Tile Cleaning & Restoration",
+        "text": "Our 1980s pool tiles in Coconut Grove were stained beyond recognition from years of hard water. Onyx restored them to like-new condition without damaging the original patterns. They even matched some missing tiles we thought were discontinued. The difference is night and day - our pool finally looks as beautiful as the tropical landscaping around it.",
+        "date": "2024-11-07"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Pool Leak Detection",
+        "text": "When our water bill suddenly tripled, two companies told us we just had evaporation from Miami heat. Onyx found a hidden leak under our Brickell pool deck within an hour using some kind of sonic device. Their repair was clean and professional, and they helped submit documentation to our insurance for partial reimbursement. Truly expert work.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Isabella M.",
+        "rating": 5,
+        "service": "Pool Renovations",
+        "text": "Our 1990s pool in Pinecrest was dated and inefficient. Onyx transformed it into a modern oasis with energy-efficient equipment, new saltwater system, and beautiful glass tile. They navigated all the Miami-Dade permits smoothly and finished two days ahead of schedule. A year later, everything still works perfectly despite constant use by our four kids.",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Carlos V.",
+        "rating": 5,
+        "service": "Pool Safety Inspections",
+        "text": "As a vacation rental owner in South Beach, pool safety is my biggest liability concern. Onyx's thorough inspection caught several issues I didn't know existed, including an outdated drain cover. Their report was detailed enough to satisfy my insurance company, and their recommended fixes were reasonably priced. I'll use them annually from now on.",
+        "date": "2024-06-29"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Miami Pool Service & Maintenance | Onyx Pool Service",
+        "description": "Professional pool care serving Miami since 2012. Weekly maintenance, repairs, and renovations tailored to South Florida's climate. Call 555-poo-r93."
+      },
+      "about": {
+        "title": "About Onyx Pool Service - Miami's Pool Experts",
+        "description": "Learn about our Miami-based pool company specializing in saltwater systems, leak detection, and climate-adapted maintenance for South Florida homes."
+      },
+      "services": {
+        "title": "Miami Pool Services | Weekly Care to Renovations",
+        "description": "Complete pool services for Miami homeowners including saltwater conversions, tile cleaning, equipment repair, and safety inspections."
+      },
+      "contact": {
+        "title": "Contact Onyx Pool Service in Miami | 555-poo-r93",
+        "description": "Schedule pool service in Miami-Dade and Broward counties. Emergency repairs available for pump failures and other critical issues."
+      },
+      "reviews": {
+        "title": "Onyx Pool Service Reviews | Miami Clients",
+        "description": "See what Miami homeowners say about our pool maintenance, repairs, and renovation services across South Florida."
+      },
+      "service-areas": {
+        "title": "Pool Service Areas | Miami to West Palm Beach",
+        "description": "We serve Fort Lauderdale, Coral Springs, Pembroke Pines, Boca Raton, West Palm Beach and throughout South Florida."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Lauderdale",
+        "slug": "fort-lauderdale-fl",
+        "state": "FL",
+        "content": "Onyx Pool Service provides expert pool maintenance and repair for Fort Lauderdale's iconic waterfront homes, many built in the 1960s and 1970s. Our team specializes in saltwater pool systems, which are popular in this coastal community. With year-round heat and humidity, regular pool care is essential to prevent algae growth and equipment wear.",
+        "localContext": "Fort Lauderdale's historic waterfront properties often feature older pool systems that require specialized care.",
+        "nearbyAreas": [
+          "Davie",
+          "Plantation",
+          "Wilton Manors"
+        ]
+      },
+      {
+        "city": "Coral Springs",
+        "slug": "coral-springs-fl",
+        "state": "FL",
+        "content": "Serving Coral Springs' planned communities since 1990, Onyx Pool Service understands the unique needs of these well-maintained neighborhoods. Our monthly maintenance packages keep pools crystal clear in the subtropical climate, with attention to water balance and efficient filtration systems. We're familiar with HOA requirements and common architectural styles in these developments.",
+        "localContext": "Coral Springs' organized community layouts make pool service efficient and predictable.",
+        "nearbyAreas": [
+          "Parkland",
+          "Tamarac",
+          "Margate"
+        ]
+      },
+      {
+        "city": "Pembroke Pines",
+        "slug": "pembroke-pines-fl",
+        "state": "FL",
+        "content": "Onyx Pool Service helps Pembroke Pines residents maintain their backyard oases in this growing suburban area. We service pools in 1990s-era developments with modern equipment, focusing on energy-efficient pumps and automation systems. The humid climate demands weekly chemical balancing to keep water safe and comfortable year-round.",
+        "localContext": "Pembroke Pines' newer construction means pools often have contemporary features and technology.",
+        "nearbyAreas": [
+          "Miramar",
+          "Hollywood",
+          "Weston"
+        ]
+      },
+      {
+        "city": "Boca Raton",
+        "slug": "boca-raton-fl",
+        "state": "FL",
+        "content": "Our luxury pool services cater to Boca Raton's high-end waterfront estates, where custom designs and premium materials are standard. We offer white-glove maintenance for infinity pools, spas, and sophisticated water features that grace these properties. The salt-air environment requires specialized care to protect finishes and equipment.",
+        "localContext": "Boca Raton's affluent communities expect discreet, professional pool service with attention to detail.",
+        "nearbyAreas": [
+          "Delray Beach",
+          "Deerfield Beach",
+          "Highland Beach"
+        ]
+      },
+      {
+        "city": "West Palm Beach",
+        "slug": "west-palm-beach-fl",
+        "state": "FL",
+        "content": "Onyx Pool Service preserves the charm of West Palm Beach's historic homes with pool services tailored to older systems. We're experts in restoring vintage tile work and maintaining the character of classic Florida pools. The tropical climate means we prioritize algae prevention and proper circulation in these decades-old pools.",
+        "localContext": "West Palm Beach's historic districts contain many original pool installations needing careful maintenance.",
+        "nearbyAreas": [
+          "Palm Beach",
+          "Lake Worth",
+          "Lantana"
+        ]
+      },
+      {
+        "city": "Miami",
+        "slug": "miami-fl",
+        "state": "FL",
+        "content": "In Miami's diverse neighborhoods, Onyx Pool Service adapts to everything from high-rise condos to waterfront villas. We handle the challenges of year-round pool use in tropical conditions, with emphasis on water clarity and equipment longevity. Our bilingual technicians serve both luxury properties and family homes across the metro area.",
+        "localContext": "Miami's fast-paced lifestyle demands reliable, flexible pool maintenance services.",
+        "nearbyAreas": [
+          "Miami Beach",
+          "Coral Gables",
+          "Doral"
+        ]
+      },
+      {
+        "city": "Naples",
+        "slug": "naples-fl",
+        "state": "FL",
+        "content": "For Naples' upscale communities, Onyx Pool Service delivers premium maintenance for resort-style pools and elaborate water features. We understand the specific needs of vacation homes that require periodic intensive cleaning between rental seasons. The Gulf Coast environment demands special attention to salt and mineral balance.",
+        "localContext": "Naples' seasonal population fluctuations create unique pool maintenance schedules.",
+        "nearbyAreas": [
+          "Bonita Springs",
+          "Marco Island",
+          "Estero"
+        ]
+      },
+      {
+        "city": "Orlando",
+        "slug": "orlando-fl",
+        "state": "FL",
+        "content": "Onyx Pool Service maintains pools in Orlando's many themed communities and vacation rental properties. We specialize in keeping pools guest-ready year-round, with quick turnaround on repairs before check-ins. The inland location means different water chemistry challenges than coastal areas.",
+        "localContext": "Orlando's tourism-driven market requires pools to be consistently presentation-ready.",
+        "nearbyAreas": [
+          "Kissimmee",
+          "Winter Park",
+          "Lake Buena Vista"
+        ]
+      },
+      {
+        "city": "Tampa",
+        "slug": "tampa-fl",
+        "state": "FL",
+        "content": "Serving Tampa Bay area homes and condos, we address the unique challenges of pools near brackish water. Our services include regular filter cleaning and salt system maintenance for bayfront properties. We're experienced with both historic bungalow pools and modern luxury installations.",
+        "localContext": "Tampa's mix of historic and contemporary homes creates varied pool service needs.",
+        "nearbyAreas": [
+          "St. Petersburg",
+          "Clearwater",
+          "Brandon"
+        ]
+      },
+      {
+        "city": "Sarasota",
+        "slug": "sarasota-fl",
+        "state": "FL",
+        "content": "Onyx Pool Service maintains Sarasota's artistic community's pools with the same attention to detail found in local architecture. We're experts with pools featuring custom mosaic work and natural finishes. The Gulf Coast climate requires vigilant attention to water balance during rainy seasons.",
+        "localContext": "Sarasota's design-conscious residents appreciate meticulous pool aesthetics.",
+        "nearbyAreas": [
+          "Bradenton",
+          "Venice",
+          "Lakewood Ranch"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "weekly-pool-maintenance": "/images/service-weekly-pool-maintenance.webp",
+      "pool-equipment-repair": "/images/service-pool-equipment-repair.webp",
+      "tile-cleaning-restoration": "/images/service-tile-cleaning-restoration.webp",
+      "pool-renovations": "/images/service-pool-renovations.webp",
+      "saltwater-conversion": "/images/service-saltwater-conversion.webp",
+      "pool-safety-inspections": "/images/service-pool-safety-inspections.webp",
+      "pool-leak-detection": "/images/service-pool-leak-detection.webp"
+    },
+    "servicesResponsive": {
+      "weekly-pool-maintenance": {
+        "src": "/images/service-weekly-pool-maintenance.webp",
+        "srcset": "/images/service-weekly-pool-maintenance-400w.webp 400w, /images/service-weekly-pool-maintenance-800w.webp 800w, /images/service-weekly-pool-maintenance-1200w.webp 1200w, /images/service-weekly-pool-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-equipment-repair": {
+        "src": "/images/service-pool-equipment-repair.webp",
+        "srcset": "/images/service-pool-equipment-repair-400w.webp 400w, /images/service-pool-equipment-repair-800w.webp 800w, /images/service-pool-equipment-repair-1200w.webp 1200w, /images/service-pool-equipment-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-cleaning-restoration": {
+        "src": "/images/service-tile-cleaning-restoration.webp",
+        "srcset": "/images/service-tile-cleaning-restoration-400w.webp 400w, /images/service-tile-cleaning-restoration-800w.webp 800w, /images/service-tile-cleaning-restoration-1200w.webp 1200w, /images/service-tile-cleaning-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-renovations": {
+        "src": "/images/service-pool-renovations.webp",
+        "srcset": "/images/service-pool-renovations-400w.webp 400w, /images/service-pool-renovations-800w.webp 800w, /images/service-pool-renovations-1200w.webp 1200w, /images/service-pool-renovations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "saltwater-conversion": {
+        "src": "/images/service-saltwater-conversion.webp",
+        "srcset": "/images/service-saltwater-conversion-400w.webp 400w, /images/service-saltwater-conversion-800w.webp 800w, /images/service-saltwater-conversion-1200w.webp 1200w, /images/service-saltwater-conversion.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-safety-inspections": {
+        "src": "/images/service-pool-safety-inspections.webp",
+        "srcset": "/images/service-pool-safety-inspections-400w.webp 400w, /images/service-pool-safety-inspections-800w.webp 800w, /images/service-pool-safety-inspections-1200w.webp 1200w, /images/service-pool-safety-inspections.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-leak-detection": {
+        "src": "/images/service-pool-leak-detection.webp",
+        "srcset": "/images/service-pool-leak-detection-400w.webp 400w, /images/service-pool-leak-detection-800w.webp 800w, /images/service-pool-leak-detection-1200w.webp 1200w, /images/service-pool-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
